@@ -1,0 +1,2 @@
+N,noise %,alpha_hat,"E_alpha, %","E_u, %",L_data,sigma^2,"LS E_alpha, %","CRLB std/alpha, %","E_u of exact formula at alpha_hat, %"
+20,5,0.10419 ± 0.00332,4.186 ± 3.317,1.913 ± 1.231,1.95e-03 ± 4.19e-04,2.50e-03,3.652 ± 3.227,5.951,1.756 ± 1.366

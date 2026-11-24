@@ -1,0 +1,10 @@
+Setting,Value
+Architecture,"(x, tau) -> 3 layers of 32 tanh -> u"
+Network parameters,2241
+Points interior / at tau=0 / on each boundary,2000 / 200 / 200
+Points,"uniform random, fixed for the whole training"
+Weights physics / IC / D / N,1.44e+08 / 1.0 / 1.0 / 1.0
+Seed,0
+Optimizer,"Adam, lr 0.001 -> 1e-05 with cosine decay"
+Iterations,20000
+"Training time, s (1 CPU thread, Apple M4)",358.4
