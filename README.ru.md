@@ -77,7 +77,7 @@ inverse/notebooks/inverse_heat_pinn.ipynb      выводы формул, все
 */results/     все графики и таблицы;  */REPORT.ru.md  подробные отчёты
 ```
 
-Связанный проект: [pinn-viscoacoustic-wave](https://github.com/AlisherKshtykenov/pinn-viscoacoustic-wave), PINN для 2D вязкоакустического волнового уравнения в неоднородной среде (дивергентная и прямая форма).
+Связанный проект: [pinn-viscoacoustic-wave](https://github.com/AlisherKshtykenov/pinn-viscoacoustic-wave), PINN для 2D вязкоакустического волнового уравнения в неоднородной среде (дивергентная и прямая форма) · [xpinn-material-interface](https://github.com/AlisherKshtykenov/xpinn-material-interface), XPINN на границе двух материалов.
 
 ## Лицензия
 
