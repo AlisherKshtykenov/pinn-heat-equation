@@ -8,7 +8,7 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 ![SymPy](https://img.shields.io/badge/SymPy-3B5526?logo=sympy&logoColor=white)
-![Inverse error](https://img.shields.io/badge/%CE%B1_error_(clean)-0.004%25-d97742)
+![Inverse error](https://img.shields.io/badge/%CE%B1_error_(clean,_5--seed_mean)-0.026%25-d97742)
 
 English · [Русский](README.ru.md)
 
@@ -19,7 +19,7 @@ English · [Русский](README.ru.md)
 | Part | Problem | Headline |
 |---|---|---|
 | [`forward/`](forward) | $u_t=\beta u_{xx}$ with mixed Dirichlet / Neumann boundaries and a corner incompatibility, $T=12000$ | PINN reaches RMSE ≈ $1.3\cdot10^{-3}$ **without any labels**, beating the explicit Euler scheme with a 1st-order Neumann BC. A 2nd-order BC on the same grid still beats the PINN. |
-| [`inverse/`](inverse) | $u_t=\alpha u_{xx}$ with unknown $\alpha$, observed at 20–100 noisy points | $\hat\alpha$ within **0.004%** on clean data, error ≈ the Cramér–Rao bound under noise |
+| [`inverse/`](inverse) | $u_t=\alpha u_{xx}$ with unknown $\alpha$, observed at 20–100 noisy points | $\hat\alpha$ mean error **0.026%** on clean data (N = 100, 5 seeds), error ≈ the Cramér–Rao bound under noise |
 
 ## Forward problem: PINN vs analytic vs Euler
 

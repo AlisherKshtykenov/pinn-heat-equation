@@ -8,7 +8,7 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 ![SymPy](https://img.shields.io/badge/SymPy-3B5526?logo=sympy&logoColor=white)
-![Inverse error](https://img.shields.io/badge/%CE%B1_error_(clean)-0.004%25-d97742)
+![Inverse error](https://img.shields.io/badge/%CE%B1_error_(clean,_5--seed_mean)-0.026%25-d97742)
 
 [English](README.md) · Русский
 
@@ -19,7 +19,7 @@
 | Часть | Задача | Главное |
 |---|---|---|
 | [`forward/`](forward) | $u_t=\beta u_{xx}$ со смешанными условиями Дирихле / Неймана и несогласованностью в углу, $T=12000$ | PINN даёт RMSE ≈ $1.3\cdot10^{-3}$ **без единой метки** и обходит явную схему Эйлера с условием Неймана 1-го порядка. Условие 2-го порядка на той же сетке всё равно точнее PINN. |
-| [`inverse/`](inverse) | $u_t=\alpha u_{xx}$ с неизвестным $\alpha$, 20–100 зашумлённых замеров | $\hat\alpha$ с точностью **0.004%** на чистых данных; при шуме ошибка около границы Крамера–Рао |
+| [`inverse/`](inverse) | $u_t=\alpha u_{xx}$ с неизвестным $\alpha$, 20–100 зашумлённых замеров | средняя ошибка $\hat\alpha$ **0.026%** на чистых данных (N = 100, 5 seed); при шуме ошибка около границы Крамера–Рао |
 
 ## Прямая задача: PINN против аналитики и Эйлера
 
