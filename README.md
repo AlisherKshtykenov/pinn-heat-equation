@@ -77,6 +77,8 @@ inverse/notebooks/inverse_heat_pinn.ipynb      derivations, all experiments, fig
 */results/     every figure and table;  */REPORT.ru.md  the full write-ups (in Russian)
 ```
 
+Related: [pinn-viscoacoustic-wave](https://github.com/AlisherKshtykenov/pinn-viscoacoustic-wave), a PINN for the 2D viscoacoustic wave equation in a heterogeneous medium (divergence vs direct form).
+
 ## License
 
 [MIT](LICENSE)
